@@ -1,0 +1,166 @@
+.main 
+{
+
+    background: white;
+    border: solid 1px black;
+	margin:0px auto;
+	min-height: 100vh;
+	flex-direction: column;
+	display: flex;
+
+}
+
+
+
+.block1 {
+    background: #c7d9f1;
+    border: solid 1px black;
+	align-items: center;
+	text-align: right;
+	flex-direction: row;
+	display: flex;
+	flex: 2 1 210px;
+    
+}
+
+
+.block1_middle{
+	flex-direction: column;
+	display: flex;
+	flex: 2 1 250px;
+	
+}
+
+.block1_middle_block2{
+	display: flex;
+	flex-direction: row;
+}
+
+.middle{
+
+    background: white;
+    border: solid 1px black;
+	flex-direction: row;
+	display: flex;
+	flex: 2 1 420px;
+}
+
+.block2{
+
+    background: #eaf2dd;
+	border: solid 1px black;
+	text-align:right;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	flex: 1 2 20px;
+   
+}
+
+.block4_block5{
+	display: flex;
+	flex-direction: column;
+	flex: 2 1 150px;
+}
+
+
+.block3 {
+    background: pink;
+    padding: 0px;
+    border: solid 1px black;
+    float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	flex: 1 2 20px;
+}
+
+
+.block4 {
+
+    background: pink;
+    border: solid 1px black;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1 2 30px;
+}
+
+.block4 a{
+	font-size: 20px; 
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+	text-align:left;
+}
+
+.block5 {
+    background: white;
+	border: solid 1px black;
+    float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	flex: 2 1 200px;
+}
+
+
+
+
+.block6 {
+
+    background: #c7d9f1;
+	border: solid 1px black;
+	
+    display: flex;
+    align-items: center;
+	flex: 2 1 100px;
+}
+
+
+.x{
+	display: flex;
+    background: #c7d9f1;
+	justify-content: left;
+	flex:50%;
+
+}
+
+.x h1{
+	
+	background: white;
+	 border: solid 1px black;
+}
+
+
+.text_right{
+	background: #c7d9f1;
+	flex:50%;
+}
+
+.y{
+
+	display: flex;
+    background:#c7d9f1;
+    padding: 0px;
+	flex:50%;
+	justify-content: right;
+}
+
+.y h1{
+	
+	background: white;
+	border: solid 1px black;
+	
+}
+
+
+.text_left{
+	background: #c7d9f1;
+	flex:50%;
+}
+
+
