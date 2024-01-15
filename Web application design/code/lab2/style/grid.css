@@ -1,0 +1,199 @@
+.main {
+  display: grid;
+  grid-template-columns: auto  auto  auto  auto   ; 
+  grid-template-rows: auto auto auto  auto ; 
+  gap: 0px; 
+  min-height: 100vh;
+}
+
+.block1_middle_block2{
+	display: grid;
+	grid-column: 1 / 4;
+	grid-row: 1 / 2; 
+}
+
+.block6 {
+	display: grid;
+	grid-column: 1 / 4;
+	grid-row: 2 / 4; 
+	
+	background: #c7d9f1;
+	border: solid 1px black;
+
+	 padding: 2rem 4rem;
+
+    grid-template-columns: 1fr auto;
+    align-items: center;
+	column-gap: 5rem;
+
+}
+
+
+
+.block1_middle{
+	display: grid;
+	grid-column: 1 / 3;
+	grid-row: 1 / 5; 
+	
+	
+}
+
+.block2 {
+
+	display: grid;
+	grid-column: 4 / 5;
+	grid-row: 1 / 5; 
+	background: #eaf2dd;
+	border: solid 1px black;
+	text-align: right;
+	
+	
+	
+	
+
+}
+
+
+
+
+.block1 {
+  display: grid;
+  grid-column: 1 / 3; /* Перша колонка */
+  grid-row: 1 / 1; /* Всі рядки */
+  background: #c7d9f1;
+  border: solid 1px black;
+  max-height: 25vh;
+  
+    padding: 2rem 4rem;
+
+    grid-template-columns: 1fr auto;
+    align-items: center;
+	column-gap: 20rem;
+ 
+}
+
+
+.middle{
+	display: grid;
+	grid-column: 1 / 3; /* Перша колонка */
+	grid-row: 2 / 3; /* Всі рядки */
+    background: white;
+    border: solid 1px black;
+	
+
+
+}
+
+.block3 {
+  background: pink;
+  border: solid 1px black;
+  display: grid;
+  grid-column: 1 / 1; /* Перша колонка */
+	grid-row: 1 / 4; /* Всі рядки */
+	
+
+}
+
+
+
+.block4_block5 {
+	display: grid;
+	grid-column: 2 / 4; 
+	grid-row: 1 / 4; 
+	
+	min-width: 100vh;
+}
+
+.block4 {
+  background: pink;
+  border: solid 1px black;
+  text-decoration: underline;
+  display: grid;
+  text-align: center;
+ 
+  grid-column: 1 / 4;
+	grid-row: 1 / 1; 
+	
+	grid-template-columns: auto auto auto;
+    align-items: center;
+
+}
+
+
+.block5 {
+	display: grid;
+  background: white;
+  border: solid 1px black;
+  
+  grid-column: 1 / 4; 
+	grid-row: 2 / 4; 
+	
+	 text-align: center;
+
+}
+
+.block5 img {
+  margin: auto auto; 
+}
+
+
+
+
+
+.block4 a {
+	font-size: 20px; 
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+	
+}
+
+
+
+.block1 .x h1{
+  background: white;
+  border: solid 1px black;
+ padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+  
+}
+
+
+
+.text_right h1 {
+
+display: grid;
+  background: #c7d9f1;
+
+ 
+    justify-content: end;
+
+  
+}
+
+
+
+
+.text_left {
+
+  background: #c7d9f1;
+
+}
+
+.y {
+  background: #c7d9f1;
+
+ padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+display: grid;
+
+}
+
+.y h1 {
+  background: white;
+  border: solid 1px black;
+  
+  
+}
