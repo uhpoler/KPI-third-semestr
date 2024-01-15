@@ -1,0 +1,170 @@
+<mxfile host="app.diagrams.net" modified="2024-01-10T08:46:26.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CxZn-6qrFr3Xu-YeKRYK" version="22.1.17" type="device">
+  <diagram name="Сторінка-1" id="9x-pTFVGJTCnmc4-BEVr">
+    <mxGraphModel dx="2113" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-1" value="Квиток" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-300" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-2" value="РК           ID Квиток" style="text;strokeColor=#020203;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-3" value="ID Транспорту" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-57" value="ID Маршруту" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-4" value="Номер місця" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-5" value="Дата відправлення " style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-1">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-6" value="Час відправлення" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-1">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-7" value="Вартість" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-1">
+          <mxGeometry y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-8" value="Станція від&#39;їзду" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-1">
+          <mxGeometry y="240" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-9" value="Станція прибуття" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-1">
+          <mxGeometry y="270" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-11" value="Транспорт" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="-190" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-12" value="РК     ID Транспорту" style="text;strokeColor=#020203;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-11">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-13" value="Тип" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-11">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-46" value="Номерний знак" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-11">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-14" value="К-сть пасажирських місць" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-11">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-15" value="Водій" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-11">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-16" value="Маршут" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-17" value="РК          ID Маршруту" style="text;strokeColor=#040505;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;shadow=1;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-16">
+          <mxGeometry y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-18" value="Станція відправлення" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-16">
+          <mxGeometry y="60" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-19" value="Кінцева станція прибуття" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-16">
+          <mxGeometry y="90" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-24" value="Розклад" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-20" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-25" value="РК         ID  Розкладу" style="text;strokeColor=#000000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=left;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-24">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-26" value="ID Маршруту" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-24">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-27" value="Дата відправлення" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-24">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-28" value="Час відправлення" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-24">
+          <mxGeometry y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-47" value="Час прибуття" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-24">
+          <mxGeometry y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-29" value="Станція" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="170" width="220" height="100" as="geometry">
+            <mxRectangle x="460" y="160" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-30" value="РК                  ID Станції" style="text;strokeColor=#050402;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-29">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-31" value="Назва станції" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-29">
+          <mxGeometry y="60" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-49" value="Список станцій" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="70" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-50" value="РК          ID  Список станцій" style="text;strokeColor=#040505;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;shadow=1;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-49">
+          <mxGeometry y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-51" value="ID Станції" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-49">
+          <mxGeometry y="60" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-73" value="ID Маршруту" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-49">
+          <mxGeometry y="90" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-54" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.008;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="v2q6KSbGdkUAvlQ_l2LL-11" target="v2q6KSbGdkUAvlQ_l2LL-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-150" y="-40" as="sourcePoint" />
+            <mxPoint x="-50" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-55" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.008;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="v2q6KSbGdkUAvlQ_l2LL-16" target="v2q6KSbGdkUAvlQ_l2LL-26">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="-8" as="sourcePoint" />
+            <mxPoint x="429" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-58" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.015;exitY=0.119;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="v2q6KSbGdkUAvlQ_l2LL-16" target="v2q6KSbGdkUAvlQ_l2LL-57">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="120" y="-128" as="sourcePoint" />
+            <mxPoint x="208" y="-160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="178" y="-255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-60" value="Бронювання" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-280" width="220" height="220" as="geometry">
+            <mxRectangle x="460" y="160" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-61" value="РК                  ID Бронювання" style="text;strokeColor=#050402;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-60">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-62" value="ID Квитка" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-60">
+          <mxGeometry y="60" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-63" value="Ім&#39;я пасажира" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-60">
+          <mxGeometry y="100" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-64" value="Прізвище пасажира" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-60">
+          <mxGeometry y="140" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-65" value="Код броні" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;align=center;" vertex="1" parent="v2q6KSbGdkUAvlQ_l2LL-60">
+          <mxGeometry y="180" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-69" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.014;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="v2q6KSbGdkUAvlQ_l2LL-29" target="v2q6KSbGdkUAvlQ_l2LL-51">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-240" y="210" as="sourcePoint" />
+            <mxPoint x="-78" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-68" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.006;exitY=0.154;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="v2q6KSbGdkUAvlQ_l2LL-16" target="v2q6KSbGdkUAvlQ_l2LL-73">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="10" y="90" as="sourcePoint" />
+            <mxPoint x="10" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v2q6KSbGdkUAvlQ_l2LL-76" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=0.996;exitY=0.049;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v2q6KSbGdkUAvlQ_l2LL-1" target="v2q6KSbGdkUAvlQ_l2LL-62">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-40" y="-270" as="sourcePoint" />
+            <mxPoint x="60" y="-370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
