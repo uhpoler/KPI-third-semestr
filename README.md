@@ -20,6 +20,7 @@ This repository contains materials from all disciplines of the third semester
   - Database on red-black tree with functions of searching, adding, deleting, editing
   - Traveling salesman problem with the ant algorithm
   - Salesman Problem (symmetric network) by genetic algorithm
+- 2 modular control work
 
 ## Game physics
 - 8 lab works and 6 home works
